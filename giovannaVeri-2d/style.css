@@ -1,0 +1,133 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 96%;
+}
+
+body {
+    background: url(https://file.notion.so/f/f/bccdcf9d-a288-48b5-8868-9ba33ca65260/146c8e3d-d074-46b9-b6be-5a2bf65f3767/bg.png) repeat;
+    color: #333;
+}
+
+/* Container principal */
+#main {
+    width: 500px;
+    margin: 40px auto;
+}
+
+#geral {
+    background: #fff;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Cabeçalho */
+#header {
+    height: 81px;
+    background: url(https://file.notion.so/f/f/bccdcf9d-a288-48b5-8868-9ba33ca65260/f29b0de6-9fc6-4f8d-8913-1c9642859e8e/header.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+}
+
+#header h1 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 25px;
+}
+
+/* Formulário */
+#formulario_mural {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+#formulario_mural form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Botão */
+.btn {
+    padding: 10px 16px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #357ab8;
+}
+
+/* Lista de recados */
+.recados {
+    list-style: none;
+    background-color: #eaf9ff;
+    border: 1px solid #b3dfff;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 10px;
+}
+
+.recados li {
+    margin-bottom: 6px;
+}
+
+.recados li strong {
+    color: #0077cc;
+}
+
+/* Rodapé */
+#footer {
+    background: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+label.error {
+    color: red;
+    font-size: 12px;
+}
