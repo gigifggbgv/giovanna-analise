@@ -18,8 +18,8 @@ mysqli_set_charset($conexao, "utf8");
 
 // Substituam os valores abaixo pelas credenciais da sua própria conta do Cloudinary
 $cloud_name = "dw2yjvchc";  // exemplo: "meucloud123"
-$api_key    = "138714883758471I";     // exemplo: "123456789012345"
-$api_secret = "DN8L22G8iZllUxVO6xvay3XaLok";  // exemplo: "abcdeFGHijkLMNopqrstu"
+$api_key    = "165797423493115";     // exemplo: "123456789012345"
+$api_secret = "IIMh-Jo6MSFR_GhwfNTUjT4hOSc";  // exemplo: "abcdeFGHijkLMNopqrstu"
 
 ?>
 
